@@ -111,7 +111,7 @@
 
             try {
                 // 替換為您在 n8n 建立的 Webhook Production 網址
-                const response = await fetch('http://localhost:5678/webhook-test/liff-orders');
+                const response = await fetch('http://localhost:5678/webhook/liff-orders');
                 const data = await response.json();
                 
                 loadingEl.style.display = 'none';
